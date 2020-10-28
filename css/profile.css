@@ -1,0 +1,134 @@
+
+  @font-face {
+    font-family: GilroyRegular;
+    src: url(../fonts/Gfonts/GilroyRegular.ttf);
+ 
+ 
+  }
+  @font-face {
+    font-family: GilroyBolder;
+    src: url(../fonts/Gfonts/GilroyExtraBold.otf);
+ 
+ 
+  }
+
+.banner-middle {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+
+  .profile-header {
+    background-image: url("../img/profilebg.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .centered {
+    position: absolute;
+    top: 60%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    width: 280px;
+  }
+  .centered button {
+    background-color: #ffffff;
+    font-family: GilroyBolder;
+    border-radius: 45px;
+    margin-bottom: 9px;
+  }
+  .centered a  {
+      background-color: #D200FF;
+      border: none;
+      font-size: 9px;
+      padding-left: 22px;
+      padding-right: 22px;
+      padding-top: 6px;
+      padding-bottom: 8px;
+      border-radius: 15px;
+      color: white;
+     
+  }
+  .centered a img {
+  width: 20%;
+  height: 18px;
+  }
+  .bottom-content p {
+      color: #FFCC00;
+      font-family: GilroyRegular; 
+  }
+  .top-bar ul  li {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .top-bar  {
+      padding-top: 25px;
+      background-color: black;
+      border-bottom: 0.7px solid white;
+      margin-left: 90px;
+      margin-right: 90px;
+  }
+  .top-bar ul  {
+    display: flex;
+    list-style: none;
+    color: white;
+    /* margin: 12px; */
+    
+  }
+      .cards-section {
+        margin-left: 90px;
+        margin-right: 90px;
+      }
+.top-bar {
+    /* border-bottom: 1px solid rgb(255, 255, 255); */
+}
+  .card {
+      background-color: black;
+  }
+  .top-bar ul  :first-child {
+      color: #FF5BFF;
+      font-family: GilroyBolder;
+      letter-spacing: 1px;
+  }
+  .cards-section {
+
+  }
+  .card-img-top {
+    width: 309px;
+    height: 511px;
+    /* align-self: center; */
+    /* border: 3px solid red; */
+}
+
+ .centered {
+    position: absolute;
+    top: 60%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    width: 280px;
+  }
+  .centered button {
+    background-color: #ffffff;
+    font-family: GilroyBolder;
+    border-radius: 45px;
+    margin-bottom: 9px;
+  }
+  .centered a  {
+      background-color: #D200FF;
+      border: none;
+      font-size: 9px;
+      padding-left: 22px;
+      padding-right: 22px;
+      padding-top: 6px;
+      padding-bottom: 8px;
+      border-radius: 15px;
+      color: white;
+     
+  }
+  .centered a img {
+  width: 20%;
+  height: 18px;
+  }
